@@ -17,6 +17,9 @@ wheels/
 venv/
 ENV/
 
+# Local Python version (pyenv)
+.python-version
+
 # Secrets & environment files
 .env
 .env.*
@@ -35,6 +38,9 @@ Thumbs.db
 
 # Node (if introduced later)
 node_modules/
+
+# Accidental or generated UI snapshot
+/index.html
 
 # Logs
 *.log
