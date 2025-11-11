@@ -1,0 +1,48 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.pyo
+*.pyd
+*.so
+*.dll
+build/
+dist/
+wheels/
+*.egg-info
+*.mypy_cache/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Secrets & environment files
+.env
+.env.*
+sample-agent/.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert/
+
+# Editor/OS cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Node (if introduced later)
+node_modules/
+
+# Logs
+*.log
+
+# Coverage
+.coverage
+htmlcov/
+
+# Packaging locks (optional, ignore if not used)
+Pipfile.lock
+poetry.lock
