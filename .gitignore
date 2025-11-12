@@ -24,6 +24,7 @@ ENV/
 .env
 .env.*
 sample-agent/.env
+*.db
 
 # Jupyter
 .ipynb_checkpoints/
